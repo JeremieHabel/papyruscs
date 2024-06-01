@@ -631,6 +631,8 @@ namespace Maploader.Renderer.Texture
                     return GetTexture("farmland", (int)data.GetValueOrDefault("moisturized_amount‌", 0) >= 1 ? 0 : 1);
                 case "grass":
                     return GetTexture("grass_carried_top", data);
+                case "grass_block":
+                    return GetTexture("grass_carried_top", data);
                 case "seagrass":
                     return GetTexture("seagrass_carried", data);
                 case "tallgrass":
